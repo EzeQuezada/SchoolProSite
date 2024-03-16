@@ -1,6 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolProSite.DAL.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<SchoolContext>(option=> 
+            option.UseSqlServer(builder.Configuration.GetConnectionString("SchoolContext")));
+
+#region "Registro de Componentes Daos"
+builder.Services.AddTransient<SchoolContext>();
+#endregion
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
