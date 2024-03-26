@@ -21,6 +21,12 @@ namespace SchoolProSite.DAL.Dao
             return this.context.Departments.Any(filter);
         }
 
+       
+
+        public Department? GetDeparment(int Id)
+        {
+            return this.context.Departments.Find(Id);
+        }
         public List<Department> GetAllDeparments()
         {
             return this.context.Departments.ToList();
