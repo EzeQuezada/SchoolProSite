@@ -1,14 +1,14 @@
 ﻿
 using SchoolProSite.DAL.Core;
 
-namespace SchoolProSite.DAL.Entities;
 
-public partial class Student :PersonBase
+namespace SchoolProSite.DAL.Entities
 {
-    public int Id { get; set; }
+    public partial class Student : PersonBase
+    {
+        public int Id { get; set; }
+        public DateTime? EnrollmentDate { get; set; }
 
 
-    public DateTime? EnrollmentDate { get; set; }
-
- 
+    }
 }

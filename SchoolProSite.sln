@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolProSite.DAL", "SchoolProSite.DAL\SchoolProSite.DAL.csproj", "{2E6560F6-5E02-4C18-8947-DE27582F5989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolProSite.Web", "SchoolProSite.Web\SchoolProSite.Web.csproj", "{550CF23D-4FB2-4844-B517-AF78DEDCE4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolProSite.Web", "SchoolProSite.Web\SchoolProSite.Web.csproj", "{550CF23D-4FB2-4844-B517-AF78DEDCE4D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

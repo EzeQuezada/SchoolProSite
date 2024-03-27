@@ -1,6 +1,6 @@
 ﻿{
-   "CodeGenerationMode": 4,
-   "ContextClassName": "schoolContext",
+   "CodeGenerationMode": 2,
+   "ContextClassName": "SchoolContext",
    "ContextNamespace": null,
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
