@@ -1,21 +1,21 @@
-﻿@model SchoolProSite.Web.Models.InstructorModel
+﻿@model SchoolProSite.Web.Models.StudentModel
 
 @{
     ViewData["Title"] = "Edit";
 }
 
+<h1>Edit</h1>
 
-
-<h1>Editar Instructor</h1>
+<h4>StudentModel</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="InstructorId" class="control-label"></label>
-                <input asp-for="InstructorId" class="form-control" />
-                <span asp-validation-for="InstructorId" class="text-danger"></span>
+                <label asp-for="StudentId" class="control-label"></label>
+                <input asp-for="StudentId" class="form-control" />
+                <span asp-validation-for="StudentId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FirstName" class="control-label"></label>
@@ -28,9 +28,9 @@
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="HireDate" class="control-label"></label>
-                <input asp-for="HireDate" class="form-control" />
-                <span asp-validation-for="HireDate" class="text-danger"></span>
+                <label asp-for="EnrollmentDate" class="control-label"></label>
+                <input asp-for="EnrollmentDate" class="form-control" />
+                <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="CreationDate" class="control-label"></label>
